@@ -1,0 +1,5 @@
+test,statistic,p_value
+Jarque-Bera,16396.4,0.0
+Skewness,3.203,
+Kurtosis,22.8282,
+Shapiro-Wilk (5k subsample),0.7645,0.0

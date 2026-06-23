@@ -1,0 +1,5 @@
+,npl_lag1,real_gdp_growth_lag2,unemployment,mortgage_rate_lag1
+npl_lag1,1.0,-0.067,0.639,-0.047
+real_gdp_growth_lag2,-0.067,1.0,-0.164,-0.107
+unemployment,0.639,-0.164,1.0,-0.077
+mortgage_rate_lag1,-0.047,-0.107,-0.077,1.0

@@ -1,0 +1,5 @@
+variable,VIF
+npl_lag1,3.85
+real_gdp_growth_lag2,1.1
+unemployment,10.7
+mortgage_rate_lag1,6.39

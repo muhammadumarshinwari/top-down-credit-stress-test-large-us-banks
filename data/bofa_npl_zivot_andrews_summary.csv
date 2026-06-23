@@ -1,0 +1,15 @@
+field,value
+Bank,Bank of America NA
+Variable,npl_ratio
+Test,"Zivot-Andrews (constant, 1 structural break)"
+Observations,76
+ZA test statistic,-3.8072
+p-value,0.4739
+Lags,1
+Estimated break date,2007-12-31
+Critical value (1%),-5.2764
+Critical value (5%),-4.8107
+Critical value (10%),-4.5662
+H0,Unit root with a single structural break
+Reject H0 at 5%?,No
+Conclusion at 5%,Unit root (even allowing break)

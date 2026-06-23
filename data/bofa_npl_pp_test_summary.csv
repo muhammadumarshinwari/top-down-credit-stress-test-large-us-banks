@@ -1,0 +1,18 @@
+field,value
+Bank,Bank of America NA
+FDIC cert (bank_id),3510
+Variable,npl_ratio
+Sample period,2005-03-31 to 2023-12-31
+Observations,76
+PP test statistic,-1.5434
+p-value,0.512
+Lags (automatic),12
+Critical value (1%),-3.5207
+Critical value (5%),-2.9009
+Critical value (10%),-2.5878
+H0,Unit root (non-stationary)
+Reject H0 at 5%?,No
+Conclusion at 5%,Non-stationary
+Series mean (%),2.8451
+Series min (%),0.2988
+Series max (%),9.186

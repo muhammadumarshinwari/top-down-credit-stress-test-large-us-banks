@@ -1,0 +1,19 @@
+check,category,status,detail
+sign_npl_lag1,economic_plausibility,PASS,"coef=0.9396, expected +"
+significance_npl_lag1,statistical,PASS,p-value=0.0000
+sign_real_gdp_growth_lag2,economic_plausibility,PASS,"coef=-0.0065, expected -"
+significance_real_gdp_growth_lag2,statistical,PASS,p-value=0.0002
+sign_unemployment,economic_plausibility,PASS,"coef=0.0502, expected +"
+significance_unemployment,statistical,PASS,p-value=0.0000
+sign_mortgage_rate_lag1,economic_plausibility,PASS,"coef=0.0962, expected +"
+significance_mortgage_rate_lag1,statistical,PASS,p-value=0.0000
+r_squared,statistical,PASS,R²=0.9715
+durbin_watson,serial_correlation,WARN,DW=1.1182
+ljung_box,serial_correlation,WARN,residual autocorrelation detected
+residual_normality,distributional,WARN,Jarque-Bera p=0.0000
+heteroskedasticity,distributional,PASS,Breusch-Pagan p=0.0000; HC1 robust SEs used in estimation
+multicollinearity,statistical,WARN,high VIF (>10): unemployment
+in_sample_rmse,backtesting,PASS,"RMSE=0.3204 pp, MAE=0.1915 pp"
+gfc_period_rmse,backtesting,WARN,2008-2009 RMSE=0.7491 pp
+out_of_sample_rmse,backtesting,PASS,OOS RMSE=0.1726 pp (0.54x in-sample)
+out_of_sample_bias,backtesting,PASS,OOS bias=0.1445 pp
