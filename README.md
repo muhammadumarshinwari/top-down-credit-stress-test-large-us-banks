@@ -1,8 +1,8 @@
 # Top-Down Credit Stress Test for Large U.S. Banks
 
-> A reduced-form macro stress test of credit risk across ten large US banks. Built as a portfolio project to demonstrate satellite modeling, validation, and capital projection methodology used in supervisory stress testing.
+> A reduced-form macro stress test of credit risk across thirteen large US banks. Built as a portfolio project to demonstrate satellite modeling, validation, and capital projection methodology used in supervisory stress testing.
 
-**Methods:** panel fixed-effects regression · HC1 robust standard errors · Phillips-Perron and Zivot-Andrews unit root tests · out-of-sample validation · VIF and Ljung-Box diagnostics
+**Methods:** panel fixed-effects regression 
 **Data:** FDIC BankFind API · FRED · Fed DFAST scenario files
 **Stack:** Python · statsmodels · pandas · matplotlib
 
