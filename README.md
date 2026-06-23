@@ -307,18 +307,20 @@ CET1 / RWA is the headline ratio in CCAR / DFAST scoring. The FDIC BankFind API 
 
 The **8.5% threshold** is the regulatory 6% Tier 1 minimum plus the 2.5% capital conservation buffer. Below that, banks face restrictions on dividends and discretionary bonuses.
 
-| Bank | Trough T1 (%) | End T1 (%) | Total credit loss | Breach 8.5%? |
-|---|---:|---:|---:|:---:|
-| PNC | 11.98 | 13.12 | $1.9B | ✅ |
-| Fifth Third | 12.15 | 13.26 | $0.4B | ✅ |
-| Truist | 12.74 | 13.87 | $1.7B | ✅ |
-| KeyBank | 12.99 | 14.17 | $0.6B | ✅ |
-| Wells Fargo | 13.24 | 14.51 | $6.3B | ✅ |
-| Bank of America | 13.64 | 15.21 | $8.4B | ✅ |
-| U.S. Bank | 13.75 | 15.10 | $2.0B | ✅ |
-| Citibank | 14.18 | 15.68 | $3.7B | ✅ |
-| JPMorgan Chase | 16.16 | 18.06 | $10.3B | ✅ |
-| Regions | 17.11 | 18.75 | $0.8B | ✅ |
+| Bank | Starting T1 (Q4 2024) | Trough T1 | End T1 | Total credit loss | Breach 8.5%? |
+|---|---:|---:|---:|---:|:---:|
+| PNC | 11.85% | 11.98% | 13.12% | $1.9B | ✅ |
+| Fifth Third | 12.03% | 12.15% | 13.26% | $0.4B | ✅ |
+| Truist | 12.61% | 12.74% | 13.87% | $1.7B | ✅ |
+| KeyBank | 12.86% | 12.99% | 14.17% | $0.6B | ✅ |
+| Wells Fargo | 13.08% | 13.24% | 14.51% | $6.3B | ✅ |
+| Bank of America | 13.46% | 13.64% | 15.21% | $8.4B | ✅ |
+| U.S. Bank | 13.60% | 13.75% | 15.10% | $2.0B | ✅ |
+| Citibank | 14.03% | 14.18% | 15.68% | $3.7B | ✅ |
+| JPMorgan Chase | 16.04% | 16.16% | 18.06% | $10.3B | ✅ |
+| Regions | 16.94% | 17.11% | 18.75% | $0.8B | ✅ |
+
+<sub>Starting Tier 1 ratios are from FDIC call reports as of 2024 Q4 (pre-stress).</sub>
 
 <sub>✅ above 8.5% floor &nbsp;·&nbsp; ⚠️ between 6% and 8.5% (buffer breach) &nbsp;·&nbsp; ❌ below 6% Tier 1 minimum</sub>
 
